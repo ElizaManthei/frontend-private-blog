@@ -4,7 +4,7 @@ import {useForm} from "react-hook-form";
 import users from "../data/users.json"
 import {useState} from "react";
 
-export default function Login({isAut, toggleIsAuthenticatedAtr}) {
+export default function Login({toggleIsAuthenticatedAtr}) {
 
     const {register, handleSubmit, formState: {errors}} = useForm();
     const navigate = useNavigate();
